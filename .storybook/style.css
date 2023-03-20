@@ -1,0 +1,86 @@
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/Wotfard-Bold.ttf') format('truetype');
+  }
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/Wotfard-SemiBold.ttf') format('truetype');
+  }
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/Wotfard-Medium.ttf') format('truetype');
+  }
+  
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/Wotfard-Regular.ttf') format('truetype');
+  }
+  
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./assets/fonts/Wotfard-Thin.ttf') format('truetype');
+  }
+  
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./assets/fonts/Wotfard-ExtraLight.ttf') format('truetype');
+  }
+  
+  /* Path: .storybook/style.css */
+  @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 100;
+    src: url('./assets/fonts/Wotfard-ExtraLight.ttf') format('truetype');
+  }
+  
+  *,
+  *:before,
+  *:after {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+  }
+  #root {
+    width: 95vw;
+  }
+  html,
+  body,
+  #__next {
+      height: 100vh;
+  }
+  #__next {
+      overflow-y: auto;
+      min-height: 100%;
+      max-width: 100vh;
+  }
+  a,
+  a:hover,
+  a:visited {
+      text-decoration: none;
+      color: inherit;
+  }
+  a:hover {
+      color: var(--color-primary);
+  }
+  
+  

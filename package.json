@@ -6,17 +6,47 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider storybook build"
+  },
+  "resolutions": {
+    "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.cd77847.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.13",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
+    "eslint": "^8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
+    "prettier": "^2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tss-react": "^4.8.2",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@storybook/addon-actions": "^7.0.0-rc.4",
+    "@storybook/addon-essentials": "^7.0.0-rc.4",
+    "@storybook/addon-interactions": "^7.0.0-rc.4",
+    "@storybook/addon-links": "^7.0.0-rc.4",
+    "@storybook/addon-mdx-gfm": "^7.0.0-rc.4",
+    "@storybook/nextjs": "^7.0.0-rc.4",
+    "@storybook/react": "^7.0.0-rc.4",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "babel-loader": "^8.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-storybook": "^0.6.11",
+    "storybook": "^7.0.0-rc.4"
   }
 }
